@@ -1,0 +1,20 @@
+agendador-distribuido/
+├── src/
+│   ├── libtslog/          
+│   │   ├── tslog.h
+│   │   └── tslog.c
+│   ├── common/
+│   │   ├── types.h        #Expandido
+│   │   ├── config.h       #Expandido  
+│   │   ├── network.h      #NOVO
+│   │   └── network.c      #NOVO
+│   ├── scheduler/         #NOVO
+│   │   ├── scheduler.h
+│   │   └── scheduler.c
+│   └── client/           #NOVO
+│       ├── client.h
+│       └── client.c
+├── test/
+│   ├── test_logging.c    
+│   └── test_clients.sh   #NOVO
+└── Makefile              #Modificado
